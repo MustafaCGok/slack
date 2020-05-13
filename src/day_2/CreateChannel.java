@@ -8,24 +8,21 @@ public class CreateChannel {
         // then delete the other one
         // in this case, may be String code
 
-        String s= "a";
-        if(s.contains("a")){
+        String s = "a";
+        if (s.contains("a")) {
             System.out.println("contains");
-        }else{
+        } else {
             System.out.println("not");
 
 
+            System.out.println("User is able to create channels");
+            int x = 0;
+            if (x == 0) {
+                System.out.println("equal");  ///.  conflict. ????
 
 
-        System.out.println("User is able to create channels");
-        int x = 0;
-        if (x == 0) {
-            System.out.println("equal");  ///.  conflict. ????
-
-
-
+            }
 
         }
-
     }
 }
