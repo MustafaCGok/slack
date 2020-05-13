@@ -6,7 +6,7 @@ public class CreateChannel {
         System.out.println("Useris able to create channels");
         int x = 0;
         if (x == 0) {
-            System.out.println("equal");
+            System.out.println("equal");  ///.  conflict. ????
         }
 
     }
